@@ -1,0 +1,14 @@
+
+<div align="center">
+    <h2> Delete Product Data</h2>
+  <br> <br>
+<form #deleteform="ngForm" (ngSubmit)="deletedata(deleteform)">
+<label> Enter ID : </label>
+<input type="number" id="pid" #pid (ngModel)="pid" name="pid">
+<br>
+
+
+<input type="submit" value="delete">
+
+</form>
+</div>
